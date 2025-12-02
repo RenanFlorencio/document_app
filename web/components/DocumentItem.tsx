@@ -8,6 +8,7 @@ export default function DocumentItem({ doc }: { doc: any }) {
       <Link href={`/documents/${doc.id}`} className="flex flex-col">
         <span className="font-semibold text-gray-800">{doc.originalName}</span>
         <span className="text-xs text-gray-500 mt-1">{doc.status}</span>
+        
       </Link>
 
       {/* Download */}
