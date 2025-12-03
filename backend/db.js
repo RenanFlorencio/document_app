@@ -1,4 +1,6 @@
 // shared documents database
 module.exports = {
-  documents: []
+  documents: [],
+  user_questions: [],
+  llm_answers: []
 };
