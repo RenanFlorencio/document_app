@@ -1,0 +1,503 @@
+[00:00:00.816] Server  LOG      ✓ Ready in 636ms
+[00:00:06.158] Server  ERROR    ⨯ Error: API error: 404
+[00:00:06.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.386] Browser ERROR   uncaughtError: Error: API error: 404
+[00:00:09.808] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:18.760] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:52.811] Server  LOG      ✓ Compiled in 35ms
+[00:03:04.623] Server  ERROR    ⨯ ReferenceError: OcrBlock is not defined
+[00:03:04.747] Browser ERROR   uncaughtError: ReferenceError: OcrBlock is not defined
+[00:03:29.833] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:30.156] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:44.740] Server  LOG      ✓ Compiled in 16ms
+[00:03:54.506] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:57.686] Server  LOG      ✓ Compiled in 9ms
+[00:04:07.818] Server  LOG      ✓ Compiled in 21ms
+[00:04:11.513] Server  LOG      ✓ Compiled in 21ms
+[00:04:20.212] Server  LOG      ✓ Compiled in 18ms
+[00:04:26.244] Server  LOG      ✓ Compiled in 10ms
+[00:05:17.509] Server  LOG      ✓ Compiled in 30ms
+[00:05:42.074] Server  LOG      ✓ Compiled in 15ms
+[00:06:15.616] Server  LOG      ✓ Compiled in 18ms
+[00:06:24.307] Server  LOG      ✓ Compiled in 17ms
+[00:06:27.345] Server  LOG      ✓ Compiled in 22ms
+[00:06:40.203] Server  LOG      ✓ Compiled in 15ms
+[00:06:47.686] Server  LOG      ✓ Compiled in 24ms
+[00:06:51.554] Server  LOG      ✓ Compiled in 15ms
+[00:08:03.890] Server  LOG      ✓ Compiled in 18ms
+[00:08:09.570] Server  LOG      ✓ Compiled in 17ms
+[00:08:17.892] Server  LOG      ✓ Compiled in 13ms
+[00:08:20.774] Server  LOG      ✓ Compiled in 9ms
+[00:08:30.117] Server  LOG      ✓ Compiled in 15ms
+[00:08:41.859] Server  LOG      ✓ Compiled in 9ms
+[00:09:06.228] Server  LOG      ✓ Compiled in 16ms
+[00:09:11.002] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:16.333] Server  LOG      ✓ Compiled in 23ms
+[00:09:22.152] Server  LOG      ✓ Compiled in 17ms
+[00:12:14.815] Server  ERROR    ⨯ ReferenceError: History is not defined
+[00:12:14.946] Browser ERROR   uncaughtError: ReferenceError: History is not defined
+[00:13:37.676] Server  ERROR    ⨯ ReferenceError: History is not defined
+[00:13:37.832] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:37.832] Browser ERROR   uncaughtError: ReferenceError: History is not defined
+[00:13:41.029] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:13:41.183] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:41.184] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `DocumentPage`.
+[00:13:42.744] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.746] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.747] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.748] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.750] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.750] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.751] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.752] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.753] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.753] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.754] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.756] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.758] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.760] Server  ERROR    ⨯ ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:42.877] Browser ERROR   ./web/app/documents/[id]/ChatHistory.tsx:2:1
+Module not found: Can't resolve '../lib/api'
+  1 | // components/DocumentList.tsx
+> 2 | import api from "../lib/api";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default async function DocumentList() {
+  5 |   const docs = await api("/documents");
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ChatHistory.tsx
+    ./web/app/documents/[id]/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:53.966] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:13:54.111] Server  ERROR    ⨯ ReferenceError: api is not defined
+[00:13:54.295] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:54.588] Browser ERROR   %s is an async Client Component. Only Server Components can be async at the moment. This error is often caused by accidentally adding `'use client'` to a module that was originally written for the server. <DocumentList>
+[00:13:54.588] Browser ERROR   unhandledRejection: ReferenceError: api is not defined
+[00:13:54.588] Browser ERROR   A component was suspended by an uncached promise. Creating promises inside a Client Component or hook is not yet supported, except via a Suspense-compatible library or framework.
+[00:13:54.588] Browser ERROR   unhandledRejection: ReferenceError: api is not defined
+[00:13:54.588] Browser ERROR   Can't perform a React state update on a component that hasn't mounted yet. This indicates that you have a side-effect in your render function that asynchronously tries to update the component. Move this work to useEffect instead.
+[00:15:14.803] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:14.803] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./web/app/documents/[id]/ChatHistory.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:15:14.804] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:15:14.825] Server  LOG      ✓ Compiled in 43ms
+[00:15:15.016] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/web_styles_globals_ba181191.css
+[00:15:15.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:34.828] Server  LOG      ✓ Compiled in 27ms
+[00:15:47.793] Server  LOG      ✓ Compiled in 9ms
+[00:16:30.187] Browser ERROR   {}
+[00:16:40.899] Browser ERROR   {}
+[00:16:42.247] Browser ERROR   {}
+[00:18:06.697] Server  LOG      ✓ Compiled in 20ms
+[00:18:12.411] Server  LOG      ✓ Compiled in 16ms
+[00:18:16.468] Server  LOG      ✓ Compiled in 13ms
+[00:19:33.313] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:37.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:42.093] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:41.805] Server  LOG      ✓ Compiled in 21ms
+[00:23:48.694] Server  LOG      ✓ Compiled in 22ms
+[00:23:50.858] Server  LOG      ✓ Compiled in 22ms
+[00:23:56.620] Server  LOG      ✓ Compiled in 11ms
+[00:24:08.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:23.076] Server  LOG      ✓ Compiled in 19ms
+[00:24:30.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:30.795] Browser LOG     [{"documentId":"1764791760548","question":"testes"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"}]
+[00:24:49.875] Browser LOG     [{"documentId":"1764791760548","question":"testes"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"}]
+[00:24:49.875] Browser LOG     [{"documentId":"1764791760548","question":"testes"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"}]
+[00:25:20.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:20.444] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:27:08.459] Server  LOG      ✓ Compiled in 13ms
+[00:27:32.315] Server  LOG      ✓ Compiled in 20ms
+[00:27:34.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:34.444] Browser LOG     {}
+[00:27:34.444] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:27:49.295] Server  LOG      ✓ Compiled in 23ms
+[00:27:52.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:52.783] Browser LOG     {}
+[00:27:52.783] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:28:11.183] Server  LOG      ✓ Compiled in 26ms
+[00:28:13.693] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.809] Browser LOG     {}
+[00:28:13.809] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:28:13.809] Browser LOG     ESTOU AQUI
+[00:28:14.678] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:14.795] Browser LOG     {}
+[00:28:14.795] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:28:14.795] Browser LOG     ESTOU AQUI
+[00:28:50.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:50.842] Browser LOG     {}
+[00:28:50.842] Browser LOG     [{"documentId":"1764791760548","question":"testes"},{"documentId":"1764791760548","question":"teste"}] [{"answer":"I can't find any information related to the term 'testes'. The provided context seems to be an invoice from Your Company Inc. If you have a different question related to the invoice or the company, I'll be happy to help.","documentId":"1764791760548"},{"answer":"I can't find any information related to your question \"teste\". It seems to be unrelated to the provided invoice. If you have a question about the invoice, such as the total amount due or the payment terms, I would be happy to help.","documentId":"1764791760548"}]
+[00:28:50.842] Browser LOG     ESTOU AQUI
+[00:29:00.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:03.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:05.293] Browser LOG     {}
+[00:29:05.293] Browser LOG     [] []
+[00:29:05.293] Browser LOG     ESTOU AQUI
+[00:29:05.293] Browser LOG     {}
+[00:29:05.293] Browser LOG     [] []
+[00:29:05.293] Browser LOG     ESTOU AQUI
+[00:29:10.770] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:10.901] Browser LOG     {}
+[00:29:10.901] Browser LOG     [{"documentId":"1764792326937","text":"teste"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."}]
+[00:29:10.901] Browser LOG     ESTOU AQUI
+[00:29:24.328] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:24.455] Browser LOG     {}
+[00:29:24.455] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:29:24.455] Browser LOG     ESTOU AQUI
+[00:31:21.265] Browser LOG     {}
+[00:31:21.265] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:31:21.265] Browser LOG     ESTOU AQUI
+[00:31:21.265] Browser LOG     {}
+[00:31:21.265] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:31:21.265] Browser LOG     ESTOU AQUI
+[00:32:20.634] Browser LOG     {}
+[00:32:20.634] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:32:20.634] Browser LOG     ESTOU AQUI
+[00:32:20.634] Browser LOG     {}
+[00:32:20.634] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:32:20.634] Browser LOG     ESTOU AQUI
+[00:34:42.440] Browser ERROR   ./web/app/page.tsx:31:6
+Parsing ecmascript source code failed
+  29 |
+  30 |       </div>
+> 31 |     </div>
+     |      ^^^^^
+  32 |   );
+  33 | }
+  34 |
+
+Unterminated regexp literal
+[00:35:01.738] Browser LOG     {}
+[00:35:01.738] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:35:01.738] Browser LOG     ESTOU AQUI
+[00:35:01.738] Browser LOG     {}
+[00:35:01.738] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:35:01.738] Browser LOG     ESTOU AQUI
+[00:35:22.334] Server  LOG      ✓ Compiled in 19ms
+[00:35:26.646] Server  LOG      ✓ Compiled in 15ms
+[00:35:37.712] Server  LOG      ✓ Compiled in 12ms
+[00:35:43.631] Server  LOG      ✓ Compiled in 15ms
+[00:35:47.266] Server  LOG      ✓ Compiled in 10ms
+[00:35:56.822] Server  LOG      ✓ Compiled in 27ms
+[00:35:56.923] Browser ERROR   ./web/app/documents/[id]/ocrBlock.tsx:21:11
+Parsing ecmascript source code failed
+  19 |           }`}
+  20 |         >
+> 21 |           >
+     |           ^
+  22 |         </span>
+  23 |         <h2 className="text-xl font-semibold mb-3">OCR Result</h2>
+  24 |       </button>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ocrBlock.tsx
+    ./web/app/documents/[id]/page.tsx
+[00:36:02.256] Browser ERROR   ./web/app/documents/[id]/ocrBlock.tsx:21:12
+Parsing ecmascript source code failed
+  19 |           }`}
+  20 |         >
+> 21 |           '>'
+     |            ^
+  22 |         </span>
+  23 |         <h2 className="text-xl font-semibold mb-3">OCR Result</h2>
+  24 |       </button>
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ocrBlock.tsx
+    ./web/app/documents/[id]/page.tsx
+[00:36:14.931] Server  LOG      ✓ Compiled in 13ms
+[00:37:07.765] Server  LOG      ✓ Compiled in 29ms
+[00:37:31.524] Server  LOG      ✓ Compiled in 16ms
+[00:37:31.626] Browser ERROR   ./web/app/documents/[id]/ocrBlock.tsx:25:12
+Parsing ecmascript source code failed
+  23 |       </button>
+  24 |
+> 25 |       <div className="mt-3">
+     |            ^^^^^^^^^
+  26 |         <pre className="whitespace-pre-wrap text-gray-800 text-sm">
+  27 |           {open ? text : preview}
+  28 |         </pre>
+
+Expected ',', got 'className'
+
+Import trace:
+  Server Component:
+    ./web/app/documents/[id]/ocrBlock.tsx
+    ./web/app/documents/[id]/page.tsx
+[00:38:04.670] Server  LOG      ✓ Compiled in 22ms
+[00:38:33.944] Browser LOG     {}
+[00:38:33.944] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:38:33.944] Browser LOG     ESTOU AQUI
+[00:38:33.944] Browser LOG     {}
+[00:38:33.944] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:38:33.944] Browser LOG     ESTOU AQUI
+[00:39:47.710] Browser LOG     {}
+[00:39:47.710] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:39:47.710] Browser LOG     ESTOU AQUI
+[00:39:47.710] Browser LOG     {}
+[00:39:47.710] Browser LOG     [{"documentId":"1764792326937","text":"teste"},{"documentId":"1764792326937","text":"When is the due date?"}] [{"documentId":"1764792326937","text":"I'm happy to help you with your question. However, it seems like the question \"teste\" might not be related to the provided context about the company invoice. Could you please rephrase or provide a more specific question related to the invoice, such as:\n\n- What is the total amount due for the invoice?\n- What is the due date for the payment?\n- What services were provided to the customer?\n\nI'll do my best to provide a helpful answer based on the context provided."},{"documentId":"1764792326937","text":"The due date for this invoice is October 16, 2023."}]
+[00:39:47.710] Browser LOG     ESTOU AQUI
+[00:40:04.142] Server  LOG      ✓ Compiled in 25ms
+[00:40:06.997] Server  LOG      ✓ Compiled in 24ms

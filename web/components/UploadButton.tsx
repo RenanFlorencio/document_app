@@ -11,6 +11,15 @@ export default function UploadButton() {
     if (!e.target.files?.length) return;
 
     const file = e.target.files[0];
+
+    // --- File type validation ---
+    const allowed = ["image/png", "image/jpeg"];
+    if (!allowed.includes(file.type)) {
+      setStatus("error");
+      setErrorMsg("Only .png and .jpg files are allowed");
+      return;
+    }
+
     setStatus("uploading");
     setProgress(0);
     setErrorMsg("");
